@@ -2,11 +2,11 @@ package com.nttdata.ta.todo;
 
 import java.util.ArrayList;
 
-import javax.validation.Valid;
+
 
 public class TodoListViewModel {
 
-	@Valid
+
 	private ArrayList<TodoItem> todoList = new ArrayList<TodoItem>();
 	
 	public TodoListViewModel() {}
